@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>En’Chant Studio | Central Virginia</title>
+  <meta name="description" content="En’Chant Studio is an expressive arts studio in Central Virginia offering sound bath meditation and creative arts workshops for relaxation, stress relief, and self-expression." />
+  <link rel="icon" href="./assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav">
+      <a href="#offerings">Offerings</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <img class="hero-logo" src="./assets/logo.png" alt="En’Chant Studio logo" />
+        <p class="hero-sub">
+          Expressive arts experiences in Central Virginia—sound bath meditation and creative workshops
+          for relaxation, stress relief, and self-expression.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#contact">Book a Session</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="offerings">
+      <h2 class="section-title">What to Expect</h2>
+
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-media">
+            <img src="./assets/sound.jpg" alt="Sound bath meditation instruments" />
+          </div>
+          <h3>Sound Bath Meditation</h3>
+          <p>Immersive sound experiences designed to help you slow down, rest, and reset.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="./assets/art.jpg" alt="Painting and creative process" />
+          </div>
+          <h3>Creative Arts Workshops</h3>
+          <p>Low-pressure, guided workshops using art as a practice of presence and calm.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="./assets/group.jpg" alt="Private and group relaxation experience" />
+          </div>
+          <h3>Private &amp; Group Experiences</h3>
+          <p>Custom sessions for individuals, small groups, and organizations.</p>
+        </article>
+      </div>
+
+      <p class="section-note">
+        Come as you are. No experience needed. Sessions are experiential and educational, focused on mindful engagement,
+        creative exploration, and relaxation in a welcoming environment.
+      </p>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="section-title">About</h2>
+      <div class="text-block">
+        <p>
+          En’Chant Studio is an expressive arts studio based in Central Virginia, blending sound and creative practices
+          to support everyday well-being through restorative experiences and creative enrichment.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="text-block">
+        <p>Email: <a href="mailto:farinazeb@gmail.com">farinazeb@gmail.com</a></p>
+        <p class="tiny">Add your booking link later and I can wire the “Book a Session” button to it.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> En’Chant Studio</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
