@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>En’Chant Studio | Expressive Arts in Central Virginia</title>
+  <meta name="description" content="Expressive arts studio in Central Virginia offering sound bath meditation and creative arts workshops." />
+  <link rel="icon" href="./assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">
+        <img class="brand-mark" src="./assets/logo.png" alt="En’Chant Studio logo" />
+        <span class="brand-name">En’Chant Studio</span>
+      </a>
+      <div class="nav-links">
+        <a href="#offerings">Offerings</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="button small">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Central Virginia • Expressive Arts Studio</p>
+          <h1>Sound & creative experiences for calm, expression, and renewal</h1>
+          <p class="lead">
+            Sound bath meditation and creative arts workshops designed for relaxation,
+            stress relief, and self-expression.
+          </p>
+        </div>
+        <div class="hero-card">
+          <img class="hero-logo" src="./assets/logo.png" alt="En’Chant Studio logo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="offerings" class="section">
+      <div class="container">
+        <h2>Offerings</h2>
+        <ul>
+          <li>Sound Bath Meditation</li>
+          <li>Creative Arts Workshops</li>
+          <li>Private & Group Experiences</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          En’Chant Studio is an expressive arts studio based in Central Virginia,
+          offering experiential and educational creative practices.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:farinazeb@gmail.com">farinazeb@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> En’Chant Studio
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
